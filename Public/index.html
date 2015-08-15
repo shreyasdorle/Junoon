@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="shreyasApp">
+	<head>
+		<title>Shreyas Dorle Portfolio</title>
+		<!-- injector:css -->
+		<link rel="stylesheet" href="Styles/CSS/bootstrap.min.css"/>
+		<link rel="stylesheet" href="Styles/CSS/Portfolio.min.css"/>
+		<!-- endinjector -->		
+	</head>
+	<body ng-controller="MainCtrl" ng-init="initMain()">
+		<div id="shreyas-portfolio">
+			<div ng-view></div>
+		</div>
+		<!-- injector:js -->
+		<script rel="javascript" src="js/jquery/jquery-2.1.4.min.js"></script>
+		<script rel="javascript" src="js/angular-1.4.3/angular.min.js"></script>
+		<script rel="javascript" src="js/angular-1.4.3/angular-route.min.js"></script>
+		<script rel="javascript" src="js/bootstrap-3.3.5/bootstrap.min.js"></script>
+		<script rel="javascript" src="Resources/application/app.js"></script>
+		<!-- endinjector -->
+		
+	</body>
+</html>
