@@ -30,5 +30,4 @@ app.controller('headerViewCtrl', ['$scope', '$rootScope', '$location', function(
 	$scope.setRoute = function (index) {
 		$location.path(($scope.navigationItems[index].name).toLowerCase());
 	};
-	
 }]);
