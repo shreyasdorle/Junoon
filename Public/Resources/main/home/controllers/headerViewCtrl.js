@@ -26,7 +26,6 @@ app.controller('headerViewCtrl', ['$scope', '$rootScope', '$location', function(
 			"name": "Contact"
 		}
 	];
-	console.log($scope.navigationItems);
 	$scope.setRoute = function (index) {
 		$location.path(($scope.navigationItems[index].name).toLowerCase());
 	};
