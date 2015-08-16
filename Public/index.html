@@ -7,17 +7,26 @@
 		<link rel="stylesheet" href="Styles/CSS/Portfolio.min.css"/>
 		<!-- endinjector -->		
 	</head>
-	<body ng-controller="MainCtrl" ng-init="initMain()">
-		<div id="shreyas-portfolio">
-			<div ng-view></div>
-		</div>
+	<body ng-controller="MainCtrl">		 			 
+		<div ng-include="'Resources/main/home/views/header.html'"></div>
+		<div id="portfolio-main-content" class="container">	
+			<section class="portfolio-section" ng-view>				
+			</section>	
+		</div>		
 		<!-- injector:js -->
 		<script rel="javascript" src="js/jquery/jquery-2.1.4.min.js"></script>
 		<script rel="javascript" src="js/angular-1.4.3/angular.min.js"></script>
 		<script rel="javascript" src="js/angular-1.4.3/angular-route.min.js"></script>
 		<script rel="javascript" src="js/bootstrap-3.3.5/bootstrap.min.js"></script>
 		<script rel="javascript" src="Resources/application/app.js"></script>
+		<script rel="javascript" src="Resources/main/about/controllers/aboutViewCtrl.js"></script>
+		<script rel="javascript" src="Resources/main/contact/controllers/contactViewCtrl.js"></script>
+		<script rel="javascript" src="Resources/main/education/controllers/educationViewCtrl.js"></script>
+		<script rel="javascript" src="Resources/main/experience/controllers/experienceViewCtrl.js"></script>
+		<script rel="javascript" src="Resources/main/home/controllers/headerViewCtrl.js"></script>
+		<script rel="javascript" src="Resources/main/home/controllers/homeViewCtrl.js"></script>
+		<script rel="javascript" src="Resources/main/projects/controllers/projectsViewCtrl.js"></script>
+		<script rel="javascript" src="Resources/main/skills/controllers/skillsViewCtrl.js"></script>
 		<!-- endinjector -->
-		
 	</body>
 </html>
