@@ -31,3 +31,4 @@ app.controller('headerViewCtrl', ['$scope', '$rootScope', '$location', function(
 		$location.path(($scope.navigationItems[index].name).toLowerCase());
 	};
 }]);
+

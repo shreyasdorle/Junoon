@@ -1,1 +1,31 @@
-<h1 ng-controller="contactViewCtrl"> This is Contact Page </h1>
+<div ng-controller="contactViewCtrl" class="contact">
+  	<div class="form">
+  		<form>
+	  		<label for="name">Name:</label>
+	  		<br>
+	  		<input class="name" name="name" type="text" required autofocus>
+	  		<br><br>
+	       	<label for="email">Email:</label>
+	       	<br>
+	        <input class="email" name="email" type="text" required>
+	        <br><br>
+	        <label for="message">Message:</label>
+	        <br>
+	        <textarea class="message" name="message" cols="40" rows="10"></textarea>
+	      	<br>
+	        <input class="submit" type="submit">
+		</form>
+	</div>
+	<div class="image">
+		<img src="../../Images/contact_image2.jpg" />
+		<div class="footer">
+			<a href="mailto:shreyas.dorle7@gmail.com"><img src="../../Images/email2.png" /></a> shreyas.dorle7@gmail.com<br><br>
+			<img src="../../Images/mobile.png" /> (619) 316-4227<br><br>
+			<div>
+			<a href="https://www.facebook.com/shreyas.dorle"><img src="../../Images/facebook.png"/></a>
+			<a href="https://plus.google.com/u/3/+shreyasdorle/posts"><img src="../../Images/googleplus.png" /></a>
+			<a href="https://www.linkedin.com/pub/shreyas-dorle/83/207/779"><img src="../../Images/linkedin.png" /></a>
+			</div>
+		</div>
+	</div>
+</div>

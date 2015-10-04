@@ -1,0 +1,30 @@
+.experience {
+	margin-left: 60px;
+	.first {
+		margin-top: 20px;
+	}
+	.first, .second, .third {
+		p:first-child {
+			float: left;
+			font-size: 25px;
+			color: @theme-color;
+		}
+		p:nth-child(2) {
+			float: right;
+			font-size: 20px;
+			font-family: cursive;
+			color: @white;
+		}
+		p:last-child{
+			font-size: 20px;
+			color: floralwhite;
+		}
+		ul {
+			margin-top: -15px;
+		}
+		li{
+			color: #C3C3C3;
+			font-size: 18px;
+		}
+	}
+}
